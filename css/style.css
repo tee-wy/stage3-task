@@ -1,0 +1,445 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+ header a i{
+ font-size: 2rem;
+ color: #111111;
+ justify-content: end;
+}
+
+.services  .bg-image {
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.services .container {
+ margin-top: 10rem;
+}
+
+.services .container h4 {
+ font-style: arial;
+ font-size: 4rem;
+ color: white;
+ text-transform: uppercase;
+}
+
+.services .container h2 {
+ font-style: arial;
+ font-size: 7rem;
+ color: white;
+ text-transform: uppercase;
+ text-transform: bold;
+}
+
+.services .container hr {
+ width: 50%;
+ height: 0.3rem;
+ background-color: white;
+}
+
+.services_icons img {
+ width: 100px;
+ margin-top: 2rem;
+}
+
+.services_icons h1 {
+ font-size: 20px;
+ color: white;
+ padding-right: 5rem;
+ margin-bottom: 10rem;;
+}
+
+.our_services {
+ margin-top: 5rem;
+ margin-bottom: 5rem;
+}
+
+.our_services .container{
+ text-align: center;
+ margin-bottom: 3rem;
+}
+
+.our_services .container h1{
+ color: rgb(129, 124, 124);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.5rem;
+}
+
+.our_services .container h2{
+ color: #111111;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 3rem;
+ font-weight: bold;
+}
+
+.our_services .container p{
+ color: #3d3939;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0,5rem;
+}
+
+.our_services .container button{
+ background: #E71A23;
+ color: white;
+ width: 9rem;
+ height: 3rem;
+ border-radius: 2px solid red;
+ font-size: 1rem;
+ border: 0;;
+}
+
+.our_services .container button:hover {
+ background:  #ac3a40;
+}
+
+.need_help{
+ margin-top: 3rem;
+ margin-bottom: 3rem;
+}
+
+.need_help .container .needhelp1 p{
+ text-align: center;
+ font-size: 1rem;
+}
+.need_help .container .needhelp1 img {
+ margin-bottom: 3rem;
+}
+
+.need_help .container .need_help2 .need_help-paragraph {
+ margin-bottom: 3rem;
+ margin-top: 2rem;
+}
+
+.need_help .container .need_help2 .need_help-paragraph h2{
+ color: red;
+ font-size: 1.5rem;
+}
+
+.quality-section {
+ margin-top: 5rem;
+ margin-bottom: 3rem;
+ background-color: #D6D4D9;
+}
+
+.quality-section .container .quality {
+ margin-top: 11rem;
+}
+
+.quality-section .container .quality .quality-header h5 {
+ font-size: 5rem;
+ text-transform: uppercase;
+ color: #104E92;
+ padding-bottom: 1rem;
+}
+
+.quality-section .container .quality .quality-header hr {
+ color:  #E71A23;
+ width: 85%;
+ height: 7px;
+}
+
+.quality-section .container .quality .quality-paragraph p {
+ color: #171618;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.quality-section .container .quality .quality-paragraph button {
+ background: #E71A23;
+ border: 0;
+ width: 7rem;
+ height: 3rem;
+ border-radius: 2px;
+ color: white;
+}
+
+.quality-section .container .quality .quality-paragraph button:hover {
+ background:  #ac3a40;
+}
+
+.service-section{
+ margin-bottom: 3rem;
+}
+
+.service-section h2 {
+ padding-bottom: 2rem;
+ padding-left: 4rem;
+ color: black;
+ font-size: 3rem;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+
+.service-section  .container1 img {
+ width: 50%;
+ padding-bottom: 2rem;
+}
+
+.service-section  .container2 img {
+ width: 28%;
+ padding-bottom: 2rem;
+}
+
+.service-section  .container3 img {
+ width: 50%;
+ padding-bottom: 2rem;
+}
+
+.service-section  .container1 h6 {
+ padding-bottom: 0.5rem;
+ font-size: 1.5rem;
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.service-section  .container2 h6 {
+ padding-bottom: 0.5rem;
+ font-size: 1.5rem;
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-section  .container3 h6 {
+ padding-bottom: 0.5rem;
+ font-size: 1.5rem;
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-section  .container1 p {
+ font-size: 0.9rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-section  .container2 p {
+ font-size: 0.9rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-section  .container3 p {
+ font-size: 0.9rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-section .container2 {
+ padding-left: 9rem;
+}
+
+.about_section {
+ background-color: #104E92;
+ margin-bottom: 3rem;
+}
+
+.about_section .container {
+ padding-top: 3rem;
+}
+
+.about_section .container .aboutus_header {
+ padding: 5rem;
+}
+
+.about_section .container .aboutus_header h3 {
+ text-transform: uppercase;
+ font-size: 1.8rem;
+ color: white;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_section .container .aboutus_header h1 {
+ color: white;
+ font-size: 5rem;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.about_section .container .about_images{
+ display: flex;
+ flex-direction: row;
+ width: 80%;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding-right: 2rem;
+}
+.about_section .container .img1 img {
+ width: 230px;
+}
+
+.about_section .container .img2 img{
+ width: 230px;
+ height: 153px;
+}
+
+.about_section .container .img3 img {
+ width: 230px;
+}
+
+.about_section .container .img4 img{
+ width: 230px;
+ height: 155px;
+}
+
+.to-do {
+ margin-top: 3rem;
+ text-align: center;
+ margin-bottom: 3rem;
+}
+
+.to-do .container  h1 {
+ font-size: 3rem;
+ padding-bottom: 1rem;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif; 
+}
+
+.to-do .container  P {
+ font-size: 2.9rem;
+ color: rgb(78, 75, 75);
+ padding-bottom: 1rem;
+}
+
+.to-do .container .button .button_one {
+ color: white;
+ background: #E71A23;
+ border: 0;
+ border-radius: 2px;
+ width: 9rem;
+ height: 3rem;
+ margin-right: 0.2rem;
+}
+
+.to-do .container .button .button_one:hover{
+ background:  #ac3a40;
+}
+
+
+.to-do .container .button .button_two{
+ color: black;
+ border: 1px solid black;
+ border-radius: 2px;
+ width: 9rem;
+ height: 3rem;
+ background: white;
+}
+
+.to-do .container .button .button_two:hover {
+ background: black;
+ color: white;
+}
+
+footer {
+ background: #333333;
+}
+
+footer p {
+ color: white;
+ text-align: center;
+ padding-top: 3rem;
+ font-size: 1.5rem;
+}
+
+.footer_text {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ color: white;
+ padding-bottom: 1.5rem;
+}
+
+@media (max-width: 769px) {
+ .need_help .container {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .about_section .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ }
+
+.quality-section .container .quality-image {
+ padding-top: 2rem;
+}
+
+.quality-section .container .quality-image img {
+ width: 100px;
+
+ 
+}
+
+ .quality-section .container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+ }
+
+ .about_section .container .aboutus_header h1{
+  font-size: 4rem;
+ }
+
+ .to-do .container h1 {
+  font-size: 1.5rem;
+ }
+
+ .to-do .container p {
+  font-size: 1rem;
+ }
+
+ .about_section .container .about_images{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+ }
+ .about_section .container .img1 img {
+  width: 260px;
+  padding-bottom: 1rem;
+ }
+ 
+ .about_section .container .img2 img{
+  width: 250px;
+  height: 155px;
+  padding-bottom: 1rem;
+ }
+ 
+ .about_section .container .img3 img {
+  width: 250px;
+  padding-bottom: 1rem;
+ }
+ 
+ .about_section .container .img4 img{
+  width: 250px;
+  height: 155px;
+ }
+
+ .quality-section .container .quality .quality-header h5 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #104E92;
+  padding-bottom: 1rem;
+ }
+
+ .service-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .service-section .container .container2 img{
+  width: 180px;
+  justify-content: left;
+ }
+
+ .service-section .container .container1 img{
+  width: 180px;
+  justify-content: right;
+ }
+}
