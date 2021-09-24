@@ -366,9 +366,116 @@ footer p {
   width: 100%;
  }
 
- /* .quality-section .container .quality {
-  padding-top: 1rem;
- } */
+.quality-section .container .quality-image {
+ padding-top: 2rem;
+}
+
+.quality-section .container .quality-image img {
+ width: 100px;
+
+ 
+}
+
+ .quality-section .container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+ }
+
+ .about_section .container .aboutus_header h1{
+  font-size: 4rem;
+ }
+
+ .to-do .container h1 {
+  font-size: 1.5rem;
+ }
+
+ .to-do .container p {
+  font-size: 1rem;
+ }
+
+ .about_section .container .about_images{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+ }
+ .about_section .container .img1 img {
+  width: 260px;
+  padding-bottom: 1rem;
+ }
+ 
+ .about_section .container .img2 img{
+  width: 250px;
+  height: 155px;
+  padding-bottom: 1rem;
+ }
+ 
+ .about_section .container .img3 img {
+  width: 250px;
+  padding-bottom: 1rem;
+ }
+ 
+ .about_section .container .img4 img{
+  width: 250px;
+  height: 155px;
+ }
+
+ .quality-section .container .quality .quality-header h5 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #104E92;
+  padding-bottom: 1rem;
+ }
+
+ .service-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .service-section .container .container2 img{
+  width: 180px;
+  justify-content: left;
+ }
+
+ .service-section .container .container1 img{
+  width: 180px;
+  justify-content: right;
+ }
+
+
+ .services .container h4{
+  font-size: 2.9rem;
+ }
+
+ .services .container h2{
+  font-size: 6rem;
+ }
+
+ .services .container .services_icons img,h1 {
+  display: none;
+ }
+}
+
+@media (max-width: 769px) {
+ .need_help .container {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .need_help2 .need_help-paragraph {
+  text-align: center;
+ }
+
+ .about_section .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ }
 
 .quality-section .container .quality-image {
  padding-top: 2rem;
@@ -451,19 +558,18 @@ footer p {
   justify-content: right;
  }
 
- .services .container{
-  
- }
+
  .services .container h4{
-  font-size: 2.9rem;
+  font-size: 1.5rem;
  }
 
  .services .container h2{
-  font-size: 6rem;
+  font-size: 4rem;
  }
 
  .services .container .services_icons img,h1 {
   display: none;
  }
-
 }
+
+
