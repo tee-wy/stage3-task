@@ -40,8 +40,8 @@
  background-color: white;
 }
 
-.services_icons img {
- width: 100px;
+.services .services_icons img {
+ width: 50px;
  margin-top: 2rem;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .quality-section .container .quality {
- margin-top: 11rem;
+ margin-top: 7rem;
 }
 
 .quality-section .container .quality .quality-header h5 {
@@ -356,11 +356,19 @@ footer p {
   flex-direction: column;
  }
 
+ .need_help2 .need_help-paragraph {
+  text-align: center;
+ }
+
  .about_section .container {
   display: flex;
   flex-direction: column;
   width: 100%;
  }
+
+ /* .quality-section .container .quality {
+  padding-top: 1rem;
+ } */
 
 .quality-section .container .quality-image {
  padding-top: 2rem;
@@ -442,4 +450,20 @@ footer p {
   width: 180px;
   justify-content: right;
  }
+
+ .services .container{
+  
+ }
+ .services .container h4{
+  font-size: 2.9rem;
+ }
+
+ .services .container h2{
+  font-size: 6rem;
+ }
+
+ .services .container .services_icons img,h1 {
+  display: none;
+ }
+
 }
