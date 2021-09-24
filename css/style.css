@@ -461,7 +461,7 @@ footer p {
  }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 325px) {
  .need_help .container {
   display: flex;
   flex-direction: column;
